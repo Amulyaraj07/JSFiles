@@ -35,3 +35,32 @@ let myObj={
 const myFunc=function(){
     console.log("hello world");
 }
+
+
+/*
+
+Stack(Primitive)  //get copy of variable
+Heap(Non-primitive) //get reference of variable
+
+
+ */
+
+let myYoutubename="Amulya";
+let newYoutube=myYoutubename;
+
+newYoutube="ABC";
+
+console.log(myYoutubename);//Amulya
+console.log(newYoutube);//ABC because a copy is passed 
+
+let userOne={
+    email: "amulya@123",
+    upi: "user@ybl",
+}
+
+let userTwo=userOne;
+
+userTwo.email="two@gmail.com";
+
+console.log(userOne.email);//two@gmail.com  because reference is passed
+console.log(userTwo.email);//two@gmail.com
