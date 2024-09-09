@@ -20,10 +20,10 @@ console.log(JsUser["email"]);
 
 
 
-// console.log(JsUser.email)
-// console.log(JsUser["email"])
-// console.log(JsUser["full name"])
-// console.log(JsUser[mySym])
+console.log(JsUser.email)
+console.log(JsUser["email"])
+console.log(JsUser["full name"])
+console.log(JsUser[mySym])
 
 JsUser.email = "amulya@chatgpt.com"
 // Object.freeze(JsUser)
@@ -39,3 +39,6 @@ JsUser.greetingTwo = function(){
 
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
+
+//////////////////////////////////////////////
+
