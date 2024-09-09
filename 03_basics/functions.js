@@ -20,3 +20,10 @@ function mul(num1,num2){
 
 const result=mul(4,5);
 console.log(result);
+
+function loginUserMessage(username){
+    return `Welcome ${username}, you logged in!`;
+}
+
+console.log(loginUserMessage("Amulya"));
+console.log(loginUserMessage());//undefined
