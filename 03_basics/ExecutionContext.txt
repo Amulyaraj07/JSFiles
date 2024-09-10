@@ -1,0 +1,25 @@
+Java Script Execution Context
+
+|{}| ->  Global EC --this
+
+1. Global EC
+2. Functional EC
+
+--Eval EC
+
+Global EC->memory Creation Phase-->Execution Phase 
+
+call stack
+
+|          |
+------------
+|          |
+------------
+|   func3()|
+------------     LIFO
+|   func2()|
+------------
+|  func1() |
+------------
+| Global EC|
+------------
