@@ -8,7 +8,7 @@ if (3>2){
 
 // <,>,<=,>=,==, != , ===,!==
 
-
+let num=5;
 switch (num){
     case 1:
         console.log("one");
