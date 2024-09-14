@@ -47,3 +47,19 @@ for (let index = 1; index <= 20; index++) {
    console.log(`Value of i is ${index}`);
     
 }
+
+//while loop 
+let index=0;
+while(index<=10){
+    console.log(index+" ");
+    index++;
+}
+
+//do while loop
+let score=1;
+do{
+    console.log(score+" ");
+    score++;
+}while(score<10);
+
+
