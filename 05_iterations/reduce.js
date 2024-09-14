@@ -12,11 +12,11 @@ console.log(myTotal);
 
 const shoppingCart = [
     {
-        itemName: "js course",
+        itemName: "javascript course",
         price: 2999
     },
     {
-        itemName: "py course",
+        itemName: "python course",
         price: 999
     },
     {
